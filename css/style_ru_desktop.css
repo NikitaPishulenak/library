@@ -1,0 +1,242 @@
+html,body { margin:0; padding:0; outline:0; font-weight:inherit; font-style:inherit; font-family:inherit; vertical-align:baseline; background-color:#000; overflow-x:hidden; font-family: Verdana; font-size:14px; width:100%}
+
+      P { line-height:17px;} 
+      EM, I { font-family: Cambria, Times New Roman; font-size:15px; }
+
+      A { font-size:14px; color:#8d0501; }
+      A:focus{outline:none; } 
+      A:visited{color:#4a0200}
+      A:hover {text-decoration:none;color:#a70500;}
+
+
+      HR { height:1px; border-width:0px; color:#c4c4c4; background-color:#c4c4c4; }
+
+      H1, H2, H3, H1 A, H2 A, H3 A { font-family: 'Open Sans Condensed', Cambria, Verdana; font-weight:bold; } 
+      H1, H1 A { font-size:28px; margin-top:0;}
+      H2, H2 A { font-size:22px; }
+      H3, H3 A { font-size:18px; margin-bottom:0px; padding-bottom:0px; }
+
+
+      blockquote { padding:10px; margin:5px; margin-left:15px; -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5); box-shadow: 0 0 5px rgba(0,0,0,0.5); background-color:#f3e8e2}
+
+      IMG { max-width:100%; height:auto; border:1px solid #b0b0b0; background-color:#fff; padding:15px }
+
+      UL { list-style-type:square }
+      LI { margin-top:6px }      
+
+      SUP { text-decoration: underline; font-size:9px; }
+
+      input { font-size:14px; }
+      textarea { font-size:14px; }
+
+       
+       
+/* ����� ������������� ������ -------------------------------------------------------------------------------- */
+    
+   SPAN.cur,SPAN.oth { border:1px solid #cebbb2; width: 30px; height: 30px; line-height:30px; margin:1px; padding:3px; text-align:center; }
+   SPAN.cur,SPAN.oth A, A.cm {font-size:11px}
+   SPAN.cur { border:1px solid #ac1109; background-color:#ac1109; color:#fff; font-size:13px}
+
+
+/* ����������� � ������-����� -------------------------------------------------------------------------------- */
+
+        .QA_Main {}
+        .inTable { width:90%; margin-left:20px; margin-bottom:10px; background-color:#e2d1c7; border:1px solid #b9a193; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius: 5px; padding:10px; font-size:12px; }
+        .tcom {}
+        .datacolor { font-size:10px; color:#5b4f28; }
+        .question_a, .question_a:hover, .question_a:visited {font-family:Verdana; font-size:12px; font-weight:bold; text-decoration:none; color:#000;}
+
+     /* ����� � ������-����� -------------------------------------------------------------------------------- */
+        #Qa_form { padding-top:15px; padding-left:30px; }      
+        #cap_img, #cap_check, #cap_text, #qa_btn, #cap_fi, #qa_can { float:left; }
+        #cap_text, #cap_fi { padding-top:5px; }
+        #cap_img img { margin-top:4px; border:0; padding:0}
+        input.Qa_ip { width:290px; }
+        #qa_btn { clear:both; }
+        #qa_btn_main { float:none; margin-top:35px; }
+        textarea.Qa_tf { font-size:14px; width:289px; height:110px; }
+        #qa_can { margin-left:4px; }
+
+        #QA_next{}
+        #QA_next_form{padding-left:30px}
+
+
+
+
+/* ������� ������ -------------------------------------------------------------------------------- */
+
+         DIV.path { width:100%; padding-right:20px; padding-bottom:10px; font-size:11px; position:absolute; top:10px; left:14%}
+         DIV.path A { font-size:10px; color:#a76967}
+         DIV.path A:visited {  }
+         DIV.path A:hover {  }
+
+
+
+
+/* ������ (������� � ���������) -------------------------------------------------------------------*/
+
+         .AnonsInMain { width:90%; }
+         .AnonsInMainIn { display:inline-block; clear:both; }
+
+         .NewsMainMain { padding-top:15px; padding-left:103px; padding-right:90px; }
+
+         .AnonsArtMain { width:100%; padding-right:15px; margin-bottom:20px; clear:both; display:table; }
+         .AnonsArtMain .AnonsImgMain { float:left; }
+         .AnonsArtMain .AnonsTextMain { margin-left:130px; }
+         .AnonsArtMain .AnonsTextMain DIV { left:-25px; top:3px; position:relative; font-size:9px; font-family:Helvetica; margin-bottom:4px; color:#fff; background-color:#b0b0b0; display:table; padding:2px; }
+
+         #bigimg { z-index:9999; }
+
+
+         .AnonsInRubric { }
+         .AnonsArtRubric { display:table; margin-bottom:20px; }
+         .AnonsArtRubric .In { float:left; }
+         .AnonsArtRubric .InText { margin-left:190px}
+         .AnonsArtRubric .InText DIV { font-size:9px; font-family:Helvetica; margin-bottom:3px; left:-20px; top:3px; position:relative; color:#fff; background-color:#b0b0b0; display:table; padding:2px;}
+
+         .NewsContent { float:left; width:58%; margin-right:60px; }
+         .NewsContent H1 { margin-top:0px; line-height:20px; }
+         .AnonsOther { float:left; width:36%; margin-top:35px; }
+
+         .searchArts {  }
+         input.searchArt { }
+
+         #all_news { padding:8px; padding-left:105px; }
+         #all_news A { font-size:16px; font-family: 'Open Sans Condensed', Verdana; float:left; }
+
+
+
+
+/*�����-------------------------------------------------------------------------------- */
+
+         .searchTitle { background-color:#3d4898; padding-top:20px; padding-left:100px; padding-bottom:20px; padding-right:50px; }
+         .searchTitle H1 { padding:0; margin:0; padding-bottom:15px; padding-right:10px; margin-right:10px; border-right:1px solid #1b2257; color:#fff; float:left; }
+         .search_info { margin-top:5px; color:#fff; }
+         .search_info DIV { float:left; padding:4px; margin-right:20px; margin-top:3px; padding-left:6px; padding-right:6px; font-size:12px; color:#fff; }
+         .search_info A, .search_info A:hover, .search_info A:visited { font-size:12px; color:#fff; }
+         .search_info .searchCurrentResult { background-color:#1b2257; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; padding-left:6px; padding-right:6px; }
+
+         .searchNotFound { margin-top:3px; padding:4px; font-size:15px; color:#fff; } 
+
+         .searchEndTitle { clear:both; } /* background: url('/design/for_news.jpg') repeat-x left bottom; height:2px; */
+
+         FORM.search { margin-bottom:2px; margin-top:1px; }
+         FORM.search input.search_input { font-size:11px; width: 180px; padding:0px; height:15px; border:1px #7a88e9 solid; border-right:none; border-radius:4px 0 0 4px; -webkit-border-radius:4px 0 0 4px; -moz-border-radius:4px 0 0 4px; padding-left:5px; }
+         FORM.search input.search_image { border: 0px;  cursor:pointer; }
+
+         .searchContent { max-width:100%; padding-left: 100px; padding-right: 20px; padding-top: 10px; }
+         .src_rslt{ padding-top:20px; clear:both; }
+         .src_chnt{ float:left; }
+         .src_src{ margin-left: 10px; float:left; max-width:90%; }
+         .src_src .AnonsArtRubric { margin-left:0px; }
+         .src_url{ font-size:11px; color:#707070;}
+         .src_src span{ font-size:12px; color:#707070;}
+
+
+
+  
+/* 404 ������ -------------------------------------------------------------------------------- */
+
+      .Conteiner404 { padding-top:80px; color:#fff }
+      .Conteiner404 A { color:#fff }
+      .Number404 { float:left; min-width:473px; width:25%; padding-top:180px; }
+      .Number404 span { display:block; width:393px; text-align: right; padding-right:20px; font-size:80px; background-color:#ad0101; color:#fff; font-family: 'Open Sans Condensed', Verdana; font-weight:bold; }
+      .Content404 { float:left; padding-right:100px; padding-left:15px; width:40%; }
+
+
+/* �������� �������� ��� ��������*/
+.fon{position:fixed; width:100%; height:100%; top:0; left:0; overflow:hidden; opacity:0}
+.MP{background: url(../design/biblio_g.jpg)}
+.AP{background: url(design/biblio_about.jpg)}
+.EP{background: url(design/biblio_cz.jpg)}
+.NP{background: url(design/biblio_nzz.jpg)}
+.EBP{background: url(design/biblio_ez.jpg)}
+.ASP{background: url(design/biblio_cz_1.jpg)}
+.IP{background: url(design/biblio_pz.jpg)}
+.PP{background: url(design/biblio_iz.jpg)}
+.QA{background: url(design/biblio_ez_1.jpg)}
+.MP,.AP,.EP,.NP,.EBP,.ASP,.IP,.PP{background-size:cover}
+
+
+/* ����-------------*/
+@media only screen and (min-width: 300px) {
+    .logo {width:300%; height:1000%; padding-left:20px; padding-top:20px; position:relative;}
+    .menu{position:absolute; display:table; width:57%; height:25%; left:0%; padding-top:7%; background:rgba(180,0,0,0.8)}
+    .newcontent{position:absolute; width: 90%; height: auto; top:40%; left:5%; background:rgba(255,255,255,0.8); padding-bottom: 10%;}
+
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {width:300%; height:1000%; padding-left:20px; padding-top:20px; position:relative;}
+    .menu{position:absolute; display:table; width:57%; height:25%; left:0%; padding-top:7%; background:rgba(180,0,0,0.8)}
+    .newcontent{position:absolute; width: 90%; height: auto; top:40%; left:5%; background:rgba(255,255,255,0.8); margin-bottom: 100px;}
+
+}
+
+@media only screen and (min-width: 992px) {
+    .logo {width:300%; height:1000%; padding-left:20px; padding-top:20px; position:fixed;}
+    .menu{position:fixed; display:table; width:240px; height:100%; top:0; left:110%; padding-top:100px; background:rgba(180,0,0,0.8)}
+    .newcontent{position:absolute;   top:20px; left:65%; width: 34%; background:rgba(255,255,255,0.8)}
+
+}
+
+@media only screen and (min-width: 1382px) {
+    .logo {width:300%; height:1000%; padding-left:20px; padding-top:20px; position:fixed;}
+    .menu{position:fixed; display:table; width:240px; height:100%; top:0; left:110%; padding-top:100px; background:rgba(180,0,0,0.8)}
+    .newcontent{position:absolute;   top:20px; left:57%; width: 42%; background:rgba(255,255,255,0.8)}
+
+}
+
+/*.menu{display:table; width:240px;  top:0; left:110%; padding-top:100px; background:rgba(180,0,0,0.8)}*/
+.menu a, .menu a:hover, .menu a:visited { color:#fff; display:block}
+.menu a:hover { text-decoration:none }
+.menu H3 { margin-top:0; margin-bottom:7px; padding-top:0 }
+.menu H3 A { padding-left:16px; }
+.menu H3 A.current_url { color:#4a0200; font-size:20px; background-color:#8d0501; padding-top:10px; padding-bottom:12px; text-decoration:none}
+
+.contacts { position:fixed; bottom:25px; left:40%; font-size:11px; color:#4e0100}
+.contacts A { font-size:11px; color:#4e0100} 
+
+
+/* ����� ����������*/
+/*.logo {width:300%; height:1000%; padding-left:20px; padding-top:20px; position:relative;}*/
+.logo H1 { font-size:2em; color:#fff; letter-spacing:5px; line-height:36px; margin-top:5px; }
+.logo IMG {border:0; padding:0; background:none; }
+.logo A {text-decoration:none}
+.logo .yashare-auto-init { position:absolute; bottom:176px; left:15% }
+/*.content{position:relative;   top:200px; left:10%; background:rgba(255,255,255,0.8)}*/
+.Incontent{padding:95px 1% 40px 1%;}
+
+
+
+/* ����� �����-> ����������� ������� ��������*/
+.cat_block_not_animated {opacity:0.3;transition:0.5s; -webkit-transition:0.5s; -o-transition:0.5s; -moz-transition:0.5s;}
+.cat_block{width:100%; float:left; margin-top:20px}
+.cat_img{ float:left;margin-right:20px;}
+.cat_img_img{width:100px; cursor:pointer}
+.cat_hidden{display:none; margin-top:10px}
+.cat_name{font-size:20px;}
+
+
+
+/* �������� � ���������-> ����������� �������, ���� ������--------���� ��������->���������� ��*/
+.a_img{float:left; margin-right:10px; width:140px; height:202px;}
+.a_img img{ width:140px; height:202px;}
+.a_block{height:220px; margin-bottom:30px;}
+.a_a{margin-left:190px; margin-top:10px; display:block;font-family: 'Open Sans Condensed', Cambria, Verdana; font-size:16px}
+.a_content{margin-left:190px; margin-top:10px;}
+
+
+/* ����� �����->�������������� �����������*/
+.f_block{margin-bottom:15px}
+.f_name{}
+.f_authors{}
+.f_content{}
+
+.footer-inner{ position: fixed; bottom: 0;
+    left:0; background:rgba(180,0,0,0.98);  font-size: 12pt; height: 140px;}
+/*-------------------------------------*/
+H3 IMG {border:0; padding:0; vertical-align: middle; background:none; margin-right:4px}
+
+.yashare-auto-init{ filter: url(filters.svg#grayscale); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray; }
+.yashare-auto-init:hover{ -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -ms-filter: grayscale(0%); -o-filter: grayscale(0%); filter: grayscale(0%); filter: none; }
